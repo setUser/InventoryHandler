@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Captain George's New List</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="newlist.css">
+</head>
+<body>
+
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
+<table>
+<tr><td colspan="2"><input type="file" name="fileToUpload" id="fileToUpload" required></td>
+<td><input type="date" name="date" required></td></tr>
+<tr><td><input type="radio" value="US FOODS" name="service" required>US FOODS</td>
+<td><input type="radio" value="SYSCO SC" name="service" required>SYSCO SC</td>
+<td><input type="submit" value="Upload List" name="submit"></form>
+<a href='lists.php'><button type="button">Cancel</button></a></td></tr>
+</table>
+
+</body>
+</html>

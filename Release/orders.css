@@ -1,0 +1,6 @@
+table, tr, td {
+    border: 1px black solid; border-collapse: collapse;
+}
+th {
+    background-color: black; color: white;
+};

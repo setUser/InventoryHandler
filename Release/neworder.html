@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Captain George's New Order</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="neworder.css">
+</head>
+<body>
+    <table>
+    
+    <tr><th><a href='orders.php'><button type="button">Cancel</button></a></th>
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <th colspan="4">New Order</th>
+    <th><input type="date" name="date" required></th>
+    <th colspan="2"><input type="submit" value="Submit Now" name="submit"></th></tr>
+    <tr><td colspan=8>.</td></tr>
+    <tr><th colspan=3></th>
+    <th colspan=2>US FOODS</th><th></th>
+    <th colspan=2>SYSCO SC</th></tr>
+    
+    <tr><th>#</th>
+    <th>ITEM</th>
+    <th>UNIT</th>
+    <th colspan="2">UNIT COST</th><th></th>
+    <th colspan="2">UNIT COST</th></tr>
+    
+
+</body>
+</html>
